@@ -1,0 +1,2 @@
+CREATE TABLE IF NOT EXISTS task(id int auto_increment primary key, content VARCHAR(255));
+CREATE TABLE IF NOT EXISTS task_event(id int auto_increment primary key, kind VARCHAR(8), content VARCHAR(255));
